@@ -1,0 +1,187 @@
+*{
+  padding: 0 0;
+  margin: 0 0;
+  background-color:#f7f7f7;
+}
+
+html, body{
+  height:100%;
+}
+
+.background{
+  position:absolute;
+  width:100%;
+  height:300px;
+  top: 0;
+  background-color: white;
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.header{
+  position:relative;
+  margin: 0 auto;
+  top: 30px;
+  width: 300px;
+  height: 120px;
+  z-index: 5;
+  background-color: white
+}
+
+.logo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:15px;
+  background-color: white
+}
+
+.headertext{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
+  background-color: white
+}
+.headertext strong{
+  background-color: white
+}
+
+.header a:link {
+  text-decoration: none;
+  color:black;
+  background-color: white
+}
+
+.form{
+  position:relative;
+  margin: 0 auto;
+  top: 40px;
+  width: 550px;
+  height: 450px;
+  border: 1px solid rgba(0,0,0,0.1);
+  box-sizing: border-box;
+  background-color: white;
+}
+form{
+  background-color: white;
+}
+.form h2{
+  padding-top: 20px;
+  font-size: 30px;
+  font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  background-color: white;
+}
+.form h3{
+  padding-top: 10px;
+  font-size: 13px;
+  font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  text-align: center;
+  color:#999;
+  background-color: white;
+  padding-bottom:30px;
+}
+.form p{
+  position:relative;
+  font-size: 13px;
+  font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  left: 55px;
+  color:#999;
+  background-color: white;
+}
+.form a{
+  color: #45cae6;
+  text-decoration: none;
+  background-color: white;
+}
+.form a:hover{
+  color: #45cae6;
+  text-decoration: underline;
+  background-color: white;
+}
+
+.input{
+  width:430px;
+  display:block;
+  border: 1px solid rgba(0,0,0,0.1);
+  height: 35px;
+  background-color: white;
+  margin: 10px auto;
+  margin-bottom: 30px;
+}
+
+.submit{
+  display: inline-block;
+  border:none;
+  font-family: "AvenirLTStd-Light", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  line-height: 13px;
+  border-radius: 3px;
+  font-size: 13px;
+  text-decoration:none;
+  text-shadow:none;
+  box-shadow:none;
+  width:100px;
+  position:absolute;
+  left:55px;
+  bottom:50px;
+  color:white;
+  background: #45cae6;
+  height:40px;
+}
+
+
+.footer{
+  position:relative;
+  margin: 0 auto;
+  top: 100px;
+  width: 700px;
+  height: 200px;
+}
+
+.footerlinks{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: "AvenirLTStd-Heavy", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+  -webkit-font-smoothing: subpixel-antialiased;
+  text-align: center;
+  font-size:13px;
+  padding-bottom:20px;
+}
+.footerlinks a:link {
+  text-decoration: none;
+  color:black;
+}
+.footerlinks a:hover {
+  text-decoration: underline;
+  color:black;
+}
+
+.footerlogo{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-bottom:15px;
+  background-color:#f7f7f7;
+}
+
+.footertext{
+  color:#999;
+  font-size:13px;
+  text-align: center;
+}
+
+.footertext a:link{
+  color: #45cae6;
+  text-decoration: none;
+}
+
+.footertext a:hover{
+  color: #45cae6;
+  text-decoration: underline;
+}
