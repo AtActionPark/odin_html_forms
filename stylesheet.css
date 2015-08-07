@@ -75,6 +75,14 @@ form{
   text-align: center;
   background-color: white;
 }
+
+legend{
+  margin:0 auto;
+}
+
+.agree{
+  width:400px;
+}
 .form h3{
   padding-top: 10px;
   font-size: 13px;
